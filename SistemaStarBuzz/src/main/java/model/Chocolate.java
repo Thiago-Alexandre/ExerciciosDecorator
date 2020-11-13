@@ -14,7 +14,7 @@ public class Chocolate extends AdicionalDecorator{
     }
 
     @Override
-    public String getDescicao() {
+    public String getDescricao() {
         return bebida.getDescricao() + ", Chocolate para capuccino";
     }
 }

@@ -14,7 +14,7 @@ public class Leite extends AdicionalDecorator{
     }
 
     @Override
-    public String getDescicao() {
+    public String getDescricao() {
         return bebida.getDescricao() + ", Leite Normal";
     }
 }

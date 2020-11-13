@@ -14,7 +14,7 @@ public class LeiteSoja extends AdicionalDecorator{
     }
 
     @Override
-    public String getDescicao() {
+    public String getDescricao() {
         return bebida.getDescricao() + ", Leite de Soja";
     }
 }

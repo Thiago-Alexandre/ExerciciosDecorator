@@ -27,21 +27,12 @@ public class Main {
         bebidas.add(bebida4);
         System.out.println("-----------------------");
         System.out.println("Mostrando o Pedido...");
-        System.out.println("-----------------------");
-        System.out.println(bebida1.getDescricao());
-        System.out.println("Valor: $" + bebida1.custo());
-        System.out.println("-----------------------");
-        System.out.println(bebida2.getDescricao());
-        System.out.println("Valor: $" + bebida2.custo());
-        System.out.println("-----------------------");
-        System.out.println(bebida3.getDescricao());
-        System.out.println("Valor: $" + bebida3.custo());
-        System.out.println("-----------------------");
-        System.out.println(bebida4.getDescricao());
-        System.out.println("Valor: $" + bebida4.custo());
-        System.out.println("-----------------------");
         Double total = 0.0;
         for(Bebida b : bebidas){
+            System.out.println("-----------------------");
+            System.out.println(b.getDescricao());
+            System.out.println("Valor: $" + b.custo());
+            System.out.println("-----------------------");    
             total += b.custo();
         }
         System.out.println("Total Pedido: " + total);
